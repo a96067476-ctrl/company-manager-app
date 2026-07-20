@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>BizFlow ERP - Company Manager</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="app.js"></script>
+        
+            </head>
+            <body>
+
+                <!-- Header Area with Company Switcher -->
+                   <header>
+                            <h2>BizFlow Dashboard</h2>
+                                    <label for="companySelect">Active Company: </label>
+                                            <select id="companySelect">
+                                                        <option value="companyA">Company A Beta</option>
+                                                                    <option value="companyB">Company B Logistics</option>
+                                                                                <option value="companyC">Company C Retail</option>
+                                                                                        </select>
+                                                                                            </header>
+
+                                                                                                <hr>
+
+                                                                                                    <!-- Main Navigation Sections -->
+                                                                                                            <main>
+                                                                                                                        <!-- Section 1: Financial Tracker -->
+                                                                                                                                <section class="card">
+                                                                                                                                            <h3>Add Financial Record</h3>
+                                                                                                                                                        <form id="financeForm">
+                                                                                                                                                                        <input type="number" id="financeAmount" placeholder="Amount ($)" required style="padding: 8px; margin-right: 10px;">
+                                                                                                                                                                                        <select id="financeType" style="margin-right: 10px;">
+                                                                                                                                                                                                            <option value="income">Income</option>
+                                                                                                                                                                                                                                <option value="expense">Expense</option>
+                                                                                                                                                                                                                                                </select>
+                                                                                                                                                                                                                                                                <button type="submit" style="padding: 8px 15px; cursor: pointer;">Save Transaction</button>
+                                                                                                                                                                                                                                                                            </form>
+                                                                                                                                                                                                                                                                                    </section>
+
+                                                                                                                                                                                                                                                                                            <!-- Section 2: Orders Tracker -->
+                                                                                                                                                                                                                                                                                                    <section class="card">
+                                                                                                                                                                                                                                                                                                                <h3>Log New Order</h3>
+                                                                                                                                                                                                                                                                                                                            <form id="orderForm">
+                                                                                                                                                                                                                                                                                                                                            <input type="text" id="clientName" placeholder="Client Name" required style="padding: 8px; margin-right: 10px;">
+                                                                                                                                                                                                                                                                                                                                                            <input type="number" id="orderTotal" placeholder="Order Total ($)" required style="padding: 8px; margin-right: 10px;">
+                                                                                                                                                                                                                                                                                                                                                                            <button type="submit" style="padding: 8px 15px; cursor: pointer;">Place Order</button>
+                                                                                                                                                                                                                                                                                                                                                                                        </form>
+                                                                                                                                                                                                                                                                                                                                                                                                </section>
+
+                                                                                                                                                                                                                                                                                                                                                                                                        <!-- Section 3: Employee Directory -->
+                                                                                                                                                                                                                                                                                                                                                                                                                <section class="card">
+                                                                                                                                                                                                                                                                                                                                                                                                                            <h3>Register Employee</h3>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <form id="employeeForm">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        <input type="text" id="employeeName" placeholder="Full Name" required style="padding: 8px; margin-right: 10px;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <input type="text" id="employeeRole" placeholder="Role / Position" required style="padding: 8px; margin-right: 10px;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <button type="submit" style="padding: 8px 15px; cursor: pointer;">Add Employee</button>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </form>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </section>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </main>
+
+                                                                                
+
+                                                                                                                                            </body>
+                                                                                                                                            </html>
+                                                                                                                                            
